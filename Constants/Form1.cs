@@ -15,11 +15,11 @@ namespace Constants
         public Form1()
         {
             InitializeComponent();
-            double pi = 3.141592653589793
-            double c = 2997924458
-            richTextBox1.AppendText(pi.ToString(N3) + "\n");
-            richTextBox1.AppendText(pi.ToString(N5) + "\n");
-            richTextBox1.AppendText(pi.ToString
+            double pi = 3.141592653589793;
+            double c = 2997924458;
+            richTextBox1.AppendText(pi.ToString("N3") + "\n");
+            richTextBox1.AppendText(pi.ToString("N5") + "\n");
+            richTextBox1.AppendText(pi.ToString()
         }
 
         private void richTextBox1_TextChanged(object sender, EventArgs e)
